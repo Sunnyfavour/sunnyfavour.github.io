@@ -92,11 +92,21 @@
     min-width: 210px;
     border-radius: 5px;
     box-shadow: 0 0 5 rgb(0,0,0,0,2);
+    
+    
 }
-
 .gpt3__navbar-menu_container p{
     margin: 1rem 0;
+    transition: transform;
 }
+
+.gpt3__navbar-menu_container p:hover{
+    font-weight: bolder;
+    transform: translateX(-7px);
+    color: #FF4820;
+
+}
+
 
 .gpt3__navbar-menu_container-links-sign {
     display: none;
